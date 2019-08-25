@@ -1,0 +1,81 @@
+/* font-family: 'Cookie', cursive; */
+@import url('https://fonts.googleapis.com/css?family=Cookie&display=swap');
+
+/* font-family: 'Open Sans', sans-serif; */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap');
+/*Codigo CSS Desktop da Página */
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/04-BG.png);
+}
+
+.nav-img {
+    background-color: #acd0b6;
+}
+
+.logo-img {
+    display: block;
+    max-width: 100%;
+    margin: 0px auto;
+    padding: 1em;
+}
+
+.section {
+    max-width: 100%;
+}
+/*Classe relacionada a div principal do formulário */
+.container {
+    margin: 0 auto;
+    width: 420px;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-text {
+    /*Fonte requisitada nas especificações*/
+    font-family: 'Cookie', cursive;
+    /*Tamanho de fonte requisitado nas especificações*/
+    font-size: 71px;
+    font-weight: lighter;
+    line-height: .7em;
+    margin-bottom: .3em;
+    color: #e2edcd;
+}
+
+.form-input, .form-msg, .form-btn {
+    padding: 13px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.form-msg {
+    /*Fonte requisitada nas especificações*/
+    font-family: 'Open Sans', 'Open Sans Light', sans-serif;
+    /*Tamanho de fonte requisitado nas especificações*/
+    font-size: 18px;
+    height: 100px;
+    resize: none;
+}
+/*Estilo do Botão de envio*/
+.form-btn {
+    cursor: pointer;
+    border: none;
+    background-color: #71a397;
+    font-family: 'Open Sans', 'Open Sans Bold', sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 22px;
+    box-shadow: 0 8px #4c8979;
+}
+/*Efeito ao passar o mouse utilizando a pseudo-classe ':hover' 
+  que serve para modificar o botão quando ele está sendo apontado.*/
+.form-btn:hover {
+    background:#4c8979;
+}
